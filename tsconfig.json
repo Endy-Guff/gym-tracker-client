@@ -19,12 +19,8 @@
     "noFallthroughCasesInSwitch": true,
     "outDir": "build",
     "baseUrl": "src",
-    "paths": {
-      "components/*": ["./components/*"],
-      "api/*": ["./api/*"]
-    }
   },
-  "include": ["src/**/*"],
+  "include": ["src"],
   "references": [
     {
       "path": "./tsconfig.node.json"

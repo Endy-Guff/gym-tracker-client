@@ -1,0 +1,22 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 0 60px 20px;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  transition: .3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
